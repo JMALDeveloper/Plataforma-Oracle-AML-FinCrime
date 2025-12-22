@@ -35,6 +35,8 @@ Los scripts están organizados de forma modular, simulando la estructura real de
 ```text
 01_security/        → Seguridad base, perfiles, auditoría y roles
 
+---
+
 ## 🚧 Estado del Proyecto
 
 Este repositorio se encuentra **en desarrollo activo**.
