@@ -30,9 +30,6 @@ procesamiento RealTime y Batch, integraciones y reporting) se irán incorporando
 y refinando en fases posteriores, manteniendo coherencia arquitectónica,
 trazabilidad y buenas prácticas profesionales.
 
-> ℹ️ Este enfoque refleja la realidad de los proyectos bancarios,
-> donde las plataformas evolucionan mediante entregas controladas.
-
 ---
 
 ## 🎯 Público Objetivo
