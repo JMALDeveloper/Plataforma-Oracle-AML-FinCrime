@@ -1,85 +1,52 @@
-# 🏦 Proyecto de Gestión Bancaria y Antifraude
+# 🏦 Plataforma Oracle AML / FinCrime (Diseño Tier-1)
 
-> ⚠️ **Estado del proyecto: Pausado indefinidamente**  
-> Actualmente me encuentro ampliando mi formación en nuevas áreas tecnológicas así como desarrollando mas conocimientos para poder dar una perspectiva mas actualizada y optima, por lo que el desarrollo de este proyecto queda detenido hasta nuevo aviso.
+## 📌 Visión General
 
-Este proyecto tiene como objetivo el desarrollo de un **entorno de gestión bancaria con módulos antifraude**, simulando las arquitecturas y configuraciones empleadas en entornos financieros profesionales.  
-El sistema está **orientado a Big Data**, aunque se ejecuta en un entorno de pruebas reducido.
+Este repositorio contiene la **base técnica y arquitectónica en Oracle Database** para una **plataforma AML / FinCrime / RegTech**, diseñada siguiendo **estándares reales de banca Tier-1**.
 
-El entorno integra:
-- Gestión de usuarios.
-- Auditoría.
-- Políticas de seguridad.
-- Estructura base para sistemas modularizados con **WLM**, **CDD/KYC** y **AML**.  
+El objetivo del proyecto es mostrar un diseño **profesional, escalable y seguro**, alineado con entornos financieros de alta criticidad, combinando **sistemas legacy** con arquitecturas modernas orientadas a **Big Data y analítica avanzada**.
 
-El propósito es ofrecer una **arquitectura modular, escalable y trazable** que permita futuras ampliaciones.
+Los scripts están organizados de forma modular, simulando la estructura real de despliegue en grandes entidades financieras.
 
 ---
 
-## 🧩 Tecnologías y Herramientas Utilizadas
+## 🎯 Público Objetivo
 
-- **Oracle Database 12c XE**  
-- **Oracle SQL Developer 24.3.1**  
-- **PL/SQL**  
-- **Shell Scripting (Bash)**  
-- **Linux**  
-- **Git y GitHub** (control de versiones y documentación)
-
----
-
-## ⚙️ Estructura y Fases del Proyecto
-
-El proyecto se encuentra dividido en distintas fases (en desarrollo):
-
-1. **Configuración principal de base de datos**  
-   (tablespaces, roles, usuarios y auditorías)
-2. **Desarrollo de tablas de datos principales** *(fase actual)*
-3. **Implementación de módulos antifraude (WLM, CDD/KYC, AML)**
-4. **Integración de scripts en Bash/Linux**
-5. **Optimización para Big Data y entornos distribuidos**
+- Entidades bancarias (Tier-1 / Tier-2)
+- Instituciones financieras
+- Proveedores FinCrime / AML / RegTech
+- Consultoras tecnológicas
+- Equipos IT de banca, Data Engineers y arquitectos AML
 
 ---
 
-## 📊 Estado Actual del Proyecto
+## 🧱 Principios de Arquitectura
 
-- ✅ Fase completada: **Configuración base**
-  - Creación de tablespaces, roles y usuarios.
-  - Activación de auditorías.
-  - Políticas de contraseñas y seguridad.
-- 🚧 En desarrollo: **Modelado de datos** y **estructuración modular**.
-- 🧾 Próximos pasos: Implementar **módulos antifraude** y **conectividad con scripts Linux**.
-
----
-
-## 🗂️ Documentación del Proyecto
-
-Toda modificación o ampliación del proyecto será documentada en este archivo, así como en los documentos PDF asociados.  
-Cada versión incluirá las rutas de los nuevos ficheros y una descripción de los cambios.
+✔ Seguridad como pilar principal  
+✔ Separación clara por patrón de carga (RealTime / Batch / Staging / BI)  
+✔ Modelo de permisos basado en mínimo privilegio  
+✔ Trazabilidad y cumplimiento regulatorio  
+✔ Compatibilidad Oracle 12c+ (incluido Oracle XE para entornos de laboratorio)  
 
 ---
 
-## 🕓 Historial de Actualizaciones
+## 📂 Estructura del Repositorio
 
-| Fecha | Descripción | Archivos afectados |
-|-------|--------------|--------------------|
-| **21-10-2025** | Creación del entorno de trabajo (Oracle 12c XE) | — |
-| **21-10-2025** | Creación del script de configuración de BBDD | `/sql/config_BBDD.sql` |
-| **26-10-2025** | Creación de documentación del proyecto y base de datos | `/Proyecto_Gestion_Bancaria_y_Antifraude.pdf`<br>`/sql/docs/config_BBDD.pdf` |
-| **20-11-2025** | Proyecto parado de manera indefinida |
+```text
+01_security/        → Seguridad base, perfiles, auditoría y roles
 
----
+## 🚧 Estado del Proyecto
 
-## 👤 Autor
+Este repositorio se encuentra **en desarrollo activo**.
 
-**Joaquín Manuel Alpañez López**  
-*Consultor Técnico Especializado en Banca y Antifraude*  
+El contenido se publica de forma **iterativa y progresiva**, simulando el
+ciclo real de construcción y despliegue de una plataforma AML / FinCrime
+en entornos bancarios Tier-1.
 
-📄 **Versión del documento:** 1.0  
-📅 **Fecha:** Noviembre 2025
+Los distintos módulos (seguridad, almacenamiento, esquemas, procesamiento,
+integraciones y reporting) se irán incorporando y refinando en fases
+posteriores, manteniendo coherencia arquitectónica y buenas prácticas
+profesionales.
 
----
-
-> 💡 *Este proyecto forma parte de un entorno de desarrollo y pruebas con orientación profesional hacia sistemas bancarios y antifraude con tecnologías de análisis de datos.*
-
-
-
+> ℹ️ Este enfoque refleja la realidad de los proyectos bancarios,
+> donde la plataforma evoluciona por entregas controladas.
