@@ -58,6 +58,7 @@ Este proyecto está orientado a:
 ## 📂 Estructura del Repositorio
 
 ```text
-01_security/        → Seguridad base, perfiles, auditoría y roles
+01_security/        → Seguridad base, perfiles, auditoría y roles.
+02_tablespaces/     → Creación y optimización de tablespaces (RT / Batch).
 
 IMPORTANTE: Se íran añadiendo más estructuras conforme la plataforma vaya avanzando.
